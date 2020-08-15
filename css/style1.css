@@ -1,0 +1,80 @@
+
+.height{
+	min-height:100vh;
+}
+#bg-img{
+	background-image: url('../images/talorseat.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+}
+.bg-color{
+	background-color:rgba(255,0,0, 0.1);
+	color:white;
+	/*position:relative;
+	top:100px;*/
+	padding:40px 0px;
+	
+}
+.num{
+	background-color:rgb(230,230,0);
+	color:black!important;
+	border-radius: 40px;
+	font-style:bolder;
+	font-size:25px;
+	width:20%;
+	margin:auto;
+	padding:10px;
+}
+.box{
+	border:1px solid red;
+	padding:10px;
+	min-height:270px;
+	margin:10px;
+	background-color:black;
+	color:white;
+}
+.box:hover{
+	box-shadow:10px 10px 2px black;
+	background-color:rgb(230,230,0);
+	color:black;
+}
+#tailor{
+	background-image: url(../images/mask-amchine.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	min-height:50vh;
+}
+.setbg{
+	background-color:rgba(0,0,0, 0.6);
+	color:red!important;
+	width:70%;
+	margin:auto;
+	font-style:bolder;
+}
+
+.but2{
+	color:red;
+	background-color:white;
+	padding:10px 14px;
+	border:none;
+	border-radius:5px;
+	margin-top:10px;
+}
+ul.unstyle li{
+	list-style: none;
+	background-color: black;
+	color:white;
+	padding:20px;
+	width:50%;
+	margin:10px auto;
+}
+.yellow{
+	color:rgb(230,230,0);
+}
+.footer{
+	background-color: black;
+	color:red;
+	padding:20px;
+}

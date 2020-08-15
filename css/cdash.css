@@ -1,0 +1,39 @@
+#sidebar{
+	background-color: black;
+	color:white;
+	/*height: 500px;*/
+	padding:20px;
+	height:100%!important;
+}
+#sidebar a{
+	display: block;
+	padding:20px;
+	border-bottom:1px solid rgb(230,230,0);
+	color:white;
+	text-decoration: none;
+}
+#sidebar a:hover{
+	color:black;
+	background-color:rgb(230,230,0);
+	border-left: 1px solid black;
+}
+.dropdown-menu{
+	background-color: white;
+}
+.dropdown-item{
+color:black!important;
+
+}
+
+#bg-img{
+	background-image: url(../photos/1.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+
+
+}
+.card-color{
+	background-color: rgba(230,230,0,0.6);
+	color:black;
+}

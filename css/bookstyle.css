@@ -1,0 +1,41 @@
+ul.list li {
+	list-style: none;
+	display:inline-block;
+	background-color: rgb(230,230,0);
+	color:white;
+	margin: 0px 20px;
+	padding:10px 20px;
+	
+}
+ul.list li a{
+	text-decoration: none;
+	color:black;
+}
+.dropdown-item:hover{
+	background-color:black;
+	color:white;
+}
+
+.pix{
+	background: url('../photos/shop.jpg');
+	background-repeat:no-repeat;
+	background-size:90%;
+	background-position:bottom center;
+	height:300px;
+
+}
+img:hover{
+	background-color:rgba(230,230,0,0.5);
+
+}
+.bottom{
+	background-color:rgba(0,0,0,0.5);
+	width:30%;
+	margin:0px auto;
+	position:relative;
+	bottom:20px;
+	padding:20px;
+}
+.bottom:hover{
+	background-color:rgb(255,0,0);
+}
