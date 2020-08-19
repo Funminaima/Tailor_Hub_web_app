@@ -61,7 +61,7 @@ if (isset($_SESSION['tailor'])) {
 
 			
 			?>
-			<div class="col-md-3 m-1">
+			<div class="col-md-3 mt-2">
 				<div class="card" style="width:18rem">
 					<img src="<?php echo $image; ?>" class="card-img-top" alt="image of styles" height="250">
 					<div class="card-body">

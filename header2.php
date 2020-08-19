@@ -107,7 +107,7 @@ nav li a:hover {
 		        <a class="nav-link" href="#">About</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="tail_work.php">All Styles</a>
+	        <a class="nav-link" href="tail_view.php">All Styles</a>
 	      </li>
 	      
 	      <li class="nav-item dropdown">

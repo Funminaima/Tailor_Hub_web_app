@@ -401,7 +401,7 @@ function updateTailorUpload($name,$amt,$description,$uploadid){
 
 
 function displayViewWork(){ //to display all the tailors pictures
-		$query_stat="SELECT * FROM upload JOIN tailor on tailor_id=id";
+		$query_stat="SELECT * FROM upload JOIN tailor on tailor_id=id order BY upload_id desc";
 	$res=$this->conn->query($query_stat);
 
 	$rows=[];
@@ -622,7 +622,7 @@ function gettransdetails($id){
 }
 
 function notifytailor($tail_id){
-	$query_stat="SELECT * FROM transaction JOIN orders ON cust_id=customers_id JOIN customer ON id=customers_id WHERE trans_status=1 and tailor_id='$tail_id'";
+	$query_stat="SELECT * FROM transaction JOIN orders ON cust_id=customers_id JOIN customer ON id=customers_id WHERE trans_status=1 and tailor_id='$tail_id' order by order_date";
 	$res=$this->conn->query($query_stat);
 
 	$row=[];

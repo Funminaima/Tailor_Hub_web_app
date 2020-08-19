@@ -28,7 +28,7 @@ include('header.php');
 							else{
 						?>
 						<div class="table-responsive">
-						<table class="table table-bordered">
+						<table class="table table-striped">
 							
 							<tr  class="bg-dark text-light">
 								
@@ -41,7 +41,7 @@ include('header.php');
 								<th>Product Price</th>
 								<th>quantity</th>
 								<th>size</th>
-								<th>Transaction number</th>
+								
 								<th>Date of order</th>
 								
 							</tr>
@@ -63,9 +63,9 @@ include('header.php');
 								<td><?php echo $value['order_amt'];?></td>
 								<td><?php echo $value['order_quantity'];?></td>
 								<td><?php echo $value['size'];?></td>
-								<td><?php echo $value['trans_no'];?></td>
+								
 								<td><?php echo $value['order_date'];?></td>
-								<!-- <td><button type="button" class="btn btn-danger">oder Detail</button></td> -->
+								
 							</tr>
 							<?php
 							}

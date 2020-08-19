@@ -1,11 +1,11 @@
 <?php
 include('Userc.php');
 $object=new Userc;
-// if (isset($_POST['no'])) {
-// 	$ret=$object->insertOrder($_GET['pro_name'],$_GET['amt'],$_SESSION['user'],$_GET['upload_id'],$_POST['no'],$_GET['amt'] * $_POST['no'],$_GET['t_id']);
-// }
+if (isset($_POST['no'])) {
+	$ret=$object->insertOrder($_GET['pro_name'],$_GET['amt'],$_SESSION['user'],$_GET['upload_id'],$_POST['no'],$_GET['amt'] * $_POST['no'],$_GET['t_id']);
+}
 
-// $object->getCartNo($_SESSION['user']);
+$object->getCartNo($_SESSION['user']);
 
 ?>
 <!DOCTYPE html>
@@ -27,9 +27,9 @@ $object=new Userc;
 			<div class="col-md-6">
 				<?php
 				//bringing a response from class
-				if (isset($_POST['no'])) {
-				echo $ret=$object->insertOrder($_GET['pro_name'],$_GET['amt'],$_SESSION['user'],$_GET['upload_id'],$_POST['no'],$_GET['amt'] * $_POST['no'],$_GET['t_id']);
-			}
+			// 	if (isset($_POST['no'])) {
+			// 	echo $ret=$object->insertOrder($_GET['pro_name'],$_GET['amt'],$_SESSION['user'],$_GET['upload_id'],$_POST['no'],$_GET['amt'] * $_POST['no'],$_GET['t_id']);
+			// }
 				
 	
 				?>

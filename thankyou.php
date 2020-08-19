@@ -32,6 +32,7 @@ $success=$t->status;
 echo $success;
 //if ($success==1) {
 	$object->updateStatus($success,$extref);
+	header('location:index.php');
 //}
 
 ?>
